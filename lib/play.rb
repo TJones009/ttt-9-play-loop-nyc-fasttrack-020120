@@ -39,11 +39,11 @@ end
 
 def play(board)
   plays = 3
-  count = 0
+  tal = 0
   loop do
-    count = count + 1
+    tal = tal + 1
     turn(board)
-    if count > plays
+    if tal > plays
       puts "Only #{turns}"
     end
   end
