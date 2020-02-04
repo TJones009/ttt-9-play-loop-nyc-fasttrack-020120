@@ -43,8 +43,7 @@ def play(board)
   loop do
     tal = tal + 1
     turn(board)
-    if tal >= plays
-      puts "Only #{plays}"
+    if tal >= 9
     end
   end
 end
