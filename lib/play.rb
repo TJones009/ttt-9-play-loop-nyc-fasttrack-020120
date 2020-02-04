@@ -40,4 +40,6 @@ end
 def play(board)
   plays = 3
   
+  loop do
+    
   
