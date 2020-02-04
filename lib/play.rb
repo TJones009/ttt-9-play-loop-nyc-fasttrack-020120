@@ -44,7 +44,7 @@ def play(board)
     tal = tal + 1
     turn(board)
     if tal > plays
-      puts "Only #{turns}"
+      puts "Only #{plays}"
     end
   end
 end
